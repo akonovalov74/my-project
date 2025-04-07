@@ -1,1 +1,80 @@
-<html><body><h1>Hello, World!</h1></body></html>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Новости дня</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background-color: #1a73e8;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .news-container {
+      padding: 20px;
+      flex: 1;
+    }
+    .news-item {
+      background: white;
+      margin-bottom: 20px;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .news-item h2 {
+      margin-top: 0;
+    }
+
+section {
+  background: #fff;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+    section {
+  background: #fff;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+footer {
+  background-color: #333;
+  color: #ccc;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Новости дня</h1>
+  </header>
+  <div class="news-container">
+    <div class="news-item">
+      <h2>Заголовок новости №1</h2>
+      <p>Краткое описание первой новости. Это может быть важное событие или просто обновление.</p>
+    </div>
+    <div class="news-item">
+      <h2>Заголовок новости №2</h2>
+      <p>Описание второй новости. Здесь можно разместить краткий обзор статьи или события.</p>
+    </div>
+  </div>
+  <footer>
+    &copy; 2025 Новости дня. Все права защищены.
+  </footer>
+</body>
+</html>
